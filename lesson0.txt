@@ -5,3 +5,7 @@
   cd git_learning
  初始化git目录(会生成隐藏文件.git，含stage暂存区等版本管理关键模块）
   git init
+--------------------
+第一次修改：
+  在工作区做完修改后，执行两个指令。1.git add lessson0.txt 2.git commit -m 'add lessson0.txt to stage'
+  第一条指令是将修改写入stage暂存区，第二个指令才是提交到git版本历史记录里。	
