@@ -11,7 +11,7 @@
   第一条指令是将修改写入stage暂存区，第二个指令才是提交到git版本历史记录里。	
 --------------------
 第二次修改
-  三个git指令：1.git diff 查看工作目录与暂存区域快照的差异   2.git diff --cached 查看暂存区域与上次提交时的快照之间的差异  3.git status 查看当前工作目录下文件的在还没被git管理的文件（指git add xxx/git commit --m 'xxx'等）
+  三个git指令：1.git diff 查看工作目录（working dirctory)与暂存区域(stage)快照的差异   2.git diff --cached 查看暂存区域与上次提交时的快照之间的差异  3.git status 查看当前工作目录下文件的在还没被git管理的文件（指git add xxx/git commit --m 'xxx'等）
 --------------------
 测试版本回退的修改
-  git status是用来告诉用户某次修改进程的指令，比如这次修改是否加入暂存区（add指令），或者是否提交至git的commit历史记录中。git add -A加入当前目录下的所有修改文件。这样就不用一个个写文件名。
+  git status是用来告诉用户某次修改工作流的指令，比如这次修改是否加入暂存区（add指令），或者是否提交至当前分支的（commit）。git add -A加入当前目录下的所有修改文件。这样就不用一个个写文件名。
