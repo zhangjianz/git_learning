@@ -36,3 +36,7 @@ ssh的作用：
 创建branchX分支：git checkout -b branchX
 查看当前仓库的分支情况：git branch 在显示出的分支中前面有星号的代表当前分支
 从远程仓库中拉取branchX分支到本地（如果本地没有branchX分支则会自动创建branchX分支）：git fetch origin branchX:branchX
+拉取最新的远程分支：git fetch origin branchX
+查看本地的branchX分支与远程branchX的区别：git diff branchX origin/branchX
+合并从远程仓库拉取的分支与本地分支：git merge branchX
+分支合并：git merger命令用于合并指定分支到当前分支
