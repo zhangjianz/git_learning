@@ -43,5 +43,7 @@ ssh的作用：
 删除分支 git branch -d <name>
 test for branch master2 and feature!
 
+
 ---------------
-changed in master
+changed in master and branch0
+
