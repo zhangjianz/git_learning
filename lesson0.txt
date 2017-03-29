@@ -55,5 +55,6 @@ test for branch master2 and feature!
 <<<<<<< HEAD
 好吧 我把你俩在这行的冲突给fix了！
 这行用于测试fast-forward是否会在log留下信息
+这行用于测试--no--ff禁用fast-forward的测试，这样在删除分支后也可以再git graph 中反应出曾经的分支信息。
 
 
