@@ -61,3 +61,4 @@ git stash用于保存工作现场，应用情景是当前分支的修改还不�
 git stash list用于查看有哪些被保存的工作区现场 git stash pop用于返回到工作现场并删除保存在git stash list中的内容
 对未合并的分支如果想要删除使用：git br -D branchName
 
+这是在有道云笔记目录下对origin/dev下的一个更改
