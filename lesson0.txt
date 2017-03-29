@@ -45,9 +45,9 @@ test for branch master2 and feature!
 
 
 ---------------
-changed in master and branch0
-hi i am br1
-<<<<<<< HEAD
-this is a dev222222222222222222222222
-have i commit?
-this is dev2 branch
+查看分支：git br(branch)
+创建分支：git br branchName
+切换分支：git co(checkout) branchName
+创建+切换分支：git co -b branchName
+合并某分支到当前分支：git merge branchName
+删除分支：git br -d branchName
