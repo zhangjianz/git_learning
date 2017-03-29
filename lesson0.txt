@@ -52,4 +52,7 @@ test for branch master2 and feature!
 合并某分支到当前分支：git merge branchName
 删除分支：git br -d branchName
 
-这一行是在master分支下的改变
+<<<<<<< HEAD
+好吧 我把你俩在这行的冲突给fix了！
+
+
