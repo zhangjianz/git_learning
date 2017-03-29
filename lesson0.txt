@@ -54,5 +54,6 @@ test for branch master2 and feature!
 
 <<<<<<< HEAD
 好吧 我把你俩在这行的冲突给fix了！
+这行用于测试fast-forward是否会在log留下信息
 
 
