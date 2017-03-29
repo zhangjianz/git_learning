@@ -42,7 +42,7 @@ ssh的作用：
 分支合并：git merger命令用于合并指定分支到当前分支
 删除分支 git branch -d <name>
 test for branch master2 and feature!
-
+好的 我修复了该bug在issue-101这个分支上！！
 
 ---------------
 查看分支：git br(branch)
